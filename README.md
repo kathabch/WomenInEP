@@ -17,14 +17,14 @@ The steps taken are visualized in the following flowchart:
 - execute the get_proceeding.py file for the required period: https://github.com/chozelinek/europarl/blob/master/get_proceedings.py
 - convert the downloaded html-files to xml: https://github.com/chozelinek/europarl/blob/master/proceedings_xml.py
 - use the get_interventions.py file to create a data set that is locally saved as .csv
-- join the MEP data (meps_joined_data.csv) to previously created dataframe with joining mep data to df.ipynb
+- join the MEP data (meps_joined_data.csv) to previously created dataframe with: joining mep data to df.ipynb
 
 #### notebooks for data analysis
 - word frequencies - general vizs.ipynb: getting an overview of the data set
-- language detection of not translated interventions.ipynb: the attempt of translating the previously not translated interventions (spoiler: didn't work)
+[- language detection of not translated interventions.ipynb: the attempt of translating the previously not translated interventions (spoiler: didn't work)]
 - topic modeling with spaCy.ipynb: topic modeling with spaCy to get an overview of the most important topics discussed within the given data set
 - word frequencies - topics.ipynb: analyzing pre-defined topics
-- topic modeling with spaCy - Roe v Wade.ipynb: an attempt to find word patterns within the Roe v. Wade topic
+[- topic modeling with spaCy - Roe v Wade.ipynb: an attempt to find word patterns within the Roe v. Wade topic]
 
 
 
